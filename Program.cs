@@ -8,23 +8,52 @@
 
 Console.Clear();
 
-string myName = "yes";
+string playAgain = "y";
 
-while (myName != "no")
+
+while (playAgain != "n")
 {
+    bool trueNumber;
+    string stringNum1;
+    string stringNum2;
+    int intNumber1;
+    int intNumber2;
+
     Console.WriteLine("Let's add some numbers!");
     Console.WriteLine("Type a number from 1 to 100");
-    string num1 = Console.ReadLine();
-    Console.WriteLine("Let's pick another number from 1 - 100");
-    string num2 = Console.ReadLine();
+    stringNum1 = Console.ReadLine();
 
-    int number1 = Convert.ToInt32(num1);
-    int number2 = Convert.ToInt32(num2);
+    while (!int.TryParse(stringNum1, out intNumber1))
+    {
+        Console.WriteLine("Try again. Please enter your first number...");
+        stringNum1 = Console.ReadLine();
+    }
+        Console.WriteLine("Let's pick another number from 1 - 100");
+        stringNum2 = Console.ReadLine();
 
-    Console.WriteLine("The sum of those numbers equal to " + (number1 + number2));
+    while (!int.TryParse(stringNum2, out intNumber2))
+    {
+        Console.WriteLine("Try again. Please enter a second number...");
+        stringNum2 = Console.ReadLine();
+    }
+
+    int totalSum = intNumber1 + intNumber2;
+    Console.WriteLine($"The sum of those numbers equal to {totalSum}");
     
-    Console.WriteLine("Do you want to play again? Type yes or no");
-    myName = Console.ReadLine();
-}
+    while (playAgain != "n")
+    {
+        Console.WriteLine("Play again? type y or n");
+        playAgain = Console.ReadLine();
+        string playAgainLower = playAgain.ToLower();
 
-Console.WriteLine("Thanks for Playing!");
+        if (playAgainLower == "n")
+        {
+            Console.WriteLine("Thanks for playing!");
+        }
+        else if (playAgainLower == "y")
+        {
+            break;
+        }
+
+    }
+}
