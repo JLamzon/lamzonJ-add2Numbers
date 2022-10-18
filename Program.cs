@@ -1,7 +1,7 @@
 ﻿//Jessie Lamzon
 //10/17/22
 //GitHubChallenge - Redo all these mini Challenges
-//data validation and option to play again
+//Adding 2 numbers + data validation and option to play again
 
 
 
