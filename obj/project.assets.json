@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/user/.nuget/packages/": {}
+    "C:\\Users\\crest\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Documents/CodeStack/Class/LVL1/LVL1_Assignments/lamzonJ-GitHubChallenge/lamzonJ-add2Numbers/lamzonJ-add2Numbers.csproj",
+      "projectUniqueName": "C:\\Users\\crest\\OneDrive\\Desktop\\GetRepository\\lamzonJ-add2Numbers\\lamzonJ-add2Numbers.csproj",
       "projectName": "lamzonJ-add2Numbers",
-      "projectPath": "/Users/user/Documents/CodeStack/Class/LVL1/LVL1_Assignments/lamzonJ-GitHubChallenge/lamzonJ-add2Numbers/lamzonJ-add2Numbers.csproj",
-      "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Documents/CodeStack/Class/LVL1/LVL1_Assignments/lamzonJ-GitHubChallenge/lamzonJ-add2Numbers/obj/",
+      "projectPath": "C:\\Users\\crest\\OneDrive\\Desktop\\GetRepository\\lamzonJ-add2Numbers\\lamzonJ-add2Numbers.csproj",
+      "packagesPath": "C:\\Users\\crest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crest\\OneDrive\\Desktop\\GetRepository\\lamzonJ-add2Numbers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/user/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\crest\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
